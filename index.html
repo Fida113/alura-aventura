@@ -12,8 +12,8 @@
 <body>
     <main>
         <div class="passo ativo" id="passo-0">
-            <img src="img/Chest.gif" alt="">
-            <p>Num belo dia, você lê na internet que existe um baú perdido, ele se chama ALMAGIOUS, e concederá riquezas inimagináveis ao que encontrá-lo. Lendas dizem que ele se localiza na casa abandonada de Swellsvitch, um milhonário que faleceu há muitos anos. Dizem que ele morreu quando tentou abrir o Almagious. Você liga seu carro, e dirige até a casa...</p>
+            <img src="img/historia.png" alt="">
+            <p>Num belo dia, você lê na internet que existe um baú mágico numa casa abandonada. Você liga seu carro, e dirige até a casa...</p>
             <button class="btn-proximo" data-proximo="1">Começar a aventura!</button>
         </div>
         <div class="passo" id="passo-99">
@@ -24,99 +24,66 @@
         <div class="passo" id="passo-1">
             <img src="img/entrada.png" alt="">
             <p>Chegando na casa, você sente uma brisa gelada passando pelo seu pescoço. Não gastei toda essa gasolina a toa! Vamos entrar!</p>
-            <button class="btn-proximo" data-proximo="2">Entrar pela porta</button>
-            <button class="btn-proximo" data-proximo="99">Entrar pela janela</button>
+            <button class="btn-proximo" data-proximo="2">Entrar</button>
         </div>
         <div class="passo" id="passo-2">
-            <img src="img/placeholder.png" alt="">
-            <p>Você entra na casa e se depara com um corredor e uma escada. O corredor da esquerda te leva para a cozinha, e a escada te leva para um lugar totalmente escuro. Para onde vamos?</p>
-            <button class="btn-proximo" data-proximo="101">Ir pelo corredor</button>
-            <button class="btn-proximo" data-proximo="3">Subir a escada</button>
+            <img src="img/fork.png" alt="">
+            <p>Você entra na casa e se depara com um corredor, escada, e uma porta trancada. O corredor da esquerda te leva para a cozinha, e a escada te leva para um lugar totalmente escuro. Para onde vamos?</p>
+            <button class="btn-proximo" data-proximo="4">Ir para a cozinha</button>
+            <button class="btn-proximo" data-proximo="3">Abrir a porta</button>
         </div>
-        <div class="passo" id="passo-3">
-            <img src="img/placeholder.png" alt="">
-            <p>A escuridão. Talvez essa não tenha sido uma boa escolha... Seu corpo começa a andar para frente contra a sua vontada. Agora não tem mais volta.</p>
-            <button class="btn-proximo" data-proximo="4">Continuar caminhando</button>
-        </div>
+            <div class="passo" id="passo-3">
+                <img src="img/doorlocked.png" alt="">
+                <p>Você não consegue abrir a porta trancada! Que surpresa</p>
+                <button class="btn-proximo" data-proximo="2">Voltar</button>
+            </div>
         <div class="passo" id="passo-4">
-            <img src="img/placeholder.png" alt="">
-            <p>Você caminha pela escuridão profunda, você perde controle do seu corpo a cada passo... Você escuta um doce sussurro ecoando pelo breu...</p>
-            <button class="btn-proximo" data-proximo="5">continuar</button>
+            <img src="img/cozinha.png" alt="">
+            <p>Você entra na cozinha. Tem uma mesa de jantar com vários pratos, e alguns armários. O que fazer?</p>
+            <button class="btn-proximo" data-proximo="5">Olhar os pratos</button>
+            <button class="btn-proximo" data-proximo="6">Vasculhar os armários</button>
         </div>
         <div class="passo" id="passo-5">
-            <img src="img/placeholder.png" alt="">
-            <p>"Não tenha medo~"</p>
-            <button class="btn-proximo" data-proximo="6">...</button>
+            <img src="img/sopademacaco.png" alt="">
+            <p>Ao olhar os pratos, você percebe que todos estão cheios de sopa de macaco!</p>
+            <button class="btn-proximo" data-proximo="4">Voltar</button>
         </div>
         <div class="passo" id="passo-6">
-            <img src="img/placeholder.png" alt="">
-            <p>"Você fez isso consigo mesmo~"</p>
-            <button class="btn-proximo" data-proximo="7">...</button>
+            <img src="img/chave.png" alt="">
+            <p>Você vasculha os armários, e encontra uma chave! Ótimo, o que faremos?</p>
+            <button class="btn-proximo" data-proximo="7">Voltar</button>
         </div>
         <div class="passo" id="passo-7">
-            <img src="img/placeholder.png" alt="">
-            <p>"Você entrou no meu domínio~"</p>
-            <button class="btn-proximo" data-proximo="8">...</button>
+            <img src="img/cozinha.png" alt="">
+            <p>Devolta na cozinha, o que fazer?</p>
+            <button class="btn-proximo" data-proximo="8">Olhar os pratos</button>
+            <button class="btn-proximo" data-proximo="9">Voltar</button>
         </div>
         <div class="passo" id="passo-8">
-            <img src="img/placeholder.png" alt="">
-            <p>"E agora... vamos brincar um pouco~"</p>
-            <button class="btn-proximo" data-proximo="9">...</button>
+            <img src="img/sopademacaco.png" alt="">
+            <p>Ao olhar os pratos, você percebe que todos estão cheios de sopa de macaco!</p>
+            <button class="btn-proximo" data-proximo="7">Voltar</button>
         </div>
         <div class="passo" id="passo-9">
-            <img src="img/placeholder.png" alt="">
-            <p>De repente, você acorda numa floresta em chamas.</p>
-            <button class="btn-proximo" data-proximo="10">...</button>
+            <img src="img/fork.png" alt="">
+            <p>Você volta para a bifurcação, o que fazer?</p>
+            <button class="btn-proximo" data-proximo="10">Destrancar a porta</button>
+            <button class="btn-proximo" data-proximo="7">Voltar</button>
         </div>
         <div class="passo" id="passo-10">
-            <img src="img/placeholder.png" alt="">
-            <p>"Vamos brincar de esconde esconde, você tem dez segundos para se esconder~"</p>
-            <button class="btn-proximo" data-proximo="11">correr correr correr</button>
+            <img src="img/destrancou.png" alt="">
+            <p>Você abre a porta, e você encontra o baú!</p>
+            <button class="btn-proximo" data-proximo="11">Voltar</button>
         </div>
         <div class="passo" id="passo-11">
-            <img src="img/placeholder.png" alt="">
-            <p>Seu coração acelera, e você começa a correr pela floresta, procurando um lugar para se esconder...</p>
-            <button class="btn-proximo" data-proximo="12">Continuar correndo</button>
-            <button class="btn-proximo" data-proximo="10">Se esconder</button>
+            <img src="img/baulegal.png" alt="">
+            <p>Chegamos no baú, nosso objetivo. Vamos nessa...</p>
+            <button class="btn-proximo" data-proximo="12">Abrir o baú</button>
         </div>
         <div class="passo" id="passo-12">
-            <img src="img/placeholder.png" alt="">
-            <p>Você continua correndo. De repente, você escuta algo correndo pela floresta.</p>
-            <button class="btn-proximo" data-proximo="10">...</button>
-            <button class="btn-proximo" data-proximo="10">...</button>
-        </div>
-
-        <div class="passo" id="passo-101">
-            <img src="img/placeholder.png" alt="">
-            <p>Você entra na casa e se depara com uma cozinha. Tem uma mesa de jantar com vários pratos, e alguns armários. O que fazer?</p>
-            <button class="btn-proximo" data-proximo="102">Olhar os pratos</button>
-            <button class="btn-proximo" data-proximo="103">Vasculhar os armários</button>
-        </div>
-        <div class="passo" id="passo-102">
-            <img src="img/placeholder.png" alt="">
-            <p>Ao olhar os pratos, você percebe que todos estão cheios de sopa de macaco!</p>
-            <button class="btn-proximo" data-proximo="101">Voltar</button>
-        </div>
-        <div class="passo" id="passo-103">
-            <img src="img/placeholder.png" alt="">
-            <p>Você vasculha os armários, e encontra uma chave! Ótimo, o que faremos?</p>
-            <button class="btn-proximo" data-proximo="104">Voltar</button>
-        </div>
-        <div class="passo" id="passo-104">
-            <img src="img/placeholder.png" alt="">
-            <p>Devolta na cozinha, o que fazer?</p>
-            <button class="btn-proximo" data-proximo="105">Olhar os pratos</button>
-            <button class="btn-proximo" data-proximo="106">Voltar</button>
-        </div>
-        <div class="passo" id="passo-105">
-            <img src="img/placeholder.png" alt="">
-            <p>Ao olhar os pratos, você percebe que todos estão cheios de sopa de macaco!</p>
-            <button class="btn-proximo" data-proximo="104">Voltar</button>
-        </div>
-        <div class="passo" id="passo-106">
-            <img src="img/placeholder.png" alt="">
-            <p>Ao olhar os pratos, você percebe que todos estão cheios de sopa de macaco!</p>
-            <button class="btn-proximo" data-proximo="104">Voltar</button>
+            <img src="img/explosion.png" alt="">
+            <p>Você abre o baú, e tudo explode!!!! FIM!!!!</p>
+            <button class="btn-proximo" data-proximo="0">YAAAAY</button>
         </div>
 
     </main>
